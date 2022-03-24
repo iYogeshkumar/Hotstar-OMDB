@@ -1,7 +1,7 @@
 function schmov(){
     let search = document.querySelector("#search").value;
-
-    let url = `https://www.omdbapi.com/?t=${search}&apikey=25f97e9a`;
+    // let akey="25f97e9a";
+    let url = `https://www.omdbapi.com/?t=${search}&apikey=${akey}`;
 
     async function moviessearch() {
 
